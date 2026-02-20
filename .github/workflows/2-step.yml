@@ -144,7 +144,7 @@ jobs:
               - description: "Created game docs commit"
                 passed: ${{ steps.check-for-game-docs-commit.outcome == 'success' }}
               - description: "Created developer docs commit"
-                passed: ${{ steps.check-for-game-docs-commit.outcome == 'success' }}
+                passed: ${{ steps.check-for-developer-docs-commit.outcome == 'success' }}
 
       # END: Check practical exercise
 
